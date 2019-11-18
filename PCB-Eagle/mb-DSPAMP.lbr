@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -128,6 +128,15 @@ Source: http://allegromicro.com/datafile/3979.pdf</description>
 <rectangle x1="-4.375" y1="2.25" x2="-4.075" y2="3.3" layer="51" rot="R180"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="TSSOP28" urn="urn:adsk.eagle:package:16469/2" type="model">
+<description>LP Package, 28-Pin TSSOP with Exposed Thermal Pad
+Source: http://allegromicro.com/datafile/3979.pdf</description>
+<packageinstances>
+<packageinstance name="TSSOP28"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="TAS5805M">
 <description>&lt;h1&gt;TAS5805M&lt;/h1&gt;
@@ -208,6 +217,9 @@ Digital Amp with some BiQuads..</description>
 <connect gate="G$1" pin="SDOUT" pad="9"/>
 <connect gate="G$1" pin="VR_DIG" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16469/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -222,6 +234,11 @@ Digital Amp with some BiQuads..</description>
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
 will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
