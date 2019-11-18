@@ -8529,6 +8529,149 @@ Source: coiltronics_dr_series.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-phoenix-508" urn="urn:adsk.eagle:library:176">
+<description>&lt;b&gt;Phoenix Connectors&lt;/b&gt;&lt;p&gt;
+Grid 5.08 mm&lt;p&gt;
+Based on the previous libraries:
+&lt;ul&gt;
+&lt;li&gt;pho508a.lbr
+&lt;li&gt;pho508b.lbr
+&lt;li&gt;pho508c.lbr
+&lt;li&gt;pho508d.lbr
+&lt;li&gt;pho508e.lbr
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="MKDSN1,5/2-5,08" urn="urn:adsk.eagle:footprint:9541/1" library_version="2">
+<description>&lt;b&gt;MKDSN 1,5/ 2-5,08&lt;/b&gt; Printklemme&lt;p&gt;
+Nennstrom: 13,5 A&lt;br&gt;
+Nennspannung: 250 V&lt;br&gt;
+Rastermaß: 5,08 mm&lt;br&gt;
+Polzahl: 2&lt;br&gt;
+Anschlussart: Schraubanschluss&lt;br&gt;
+Montage: Löten&lt;br&gt;
+Anschlussrichtung Leiter/Platine: 0 °&lt;br&gt;
+Artikelnummer: 1729128&lt;br&gt;
+Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
+<wire x1="-5.1011" y1="-4.05" x2="5.0589" y2="-4.05" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="2.5243" x2="5.0589" y2="2.5243" width="0.2032" layer="21"/>
+<wire x1="-2.7211" y1="-0.63" x2="-3.6341" y2="-1.543" width="0.2032" layer="51"/>
+<wire x1="-5.1011" y1="-1.9555" x2="-5.1011" y2="-2.4479" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="-3.327" x2="-5.2298" y2="-3.327" width="0.2032" layer="21"/>
+<wire x1="-5.2298" y1="-2.913" x2="-5.1011" y2="-2.913" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="-3.1279" x2="-5.1011" y2="-2.913" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="-3.327" x2="-5.1011" y2="-3.1279" width="0.2032" layer="21"/>
+<wire x1="-5.6711" y1="-2.763" x2="-5.4081" y2="-2.763" width="0.2032" layer="21"/>
+<wire x1="-5.6711" y1="-3.477" x2="-5.4081" y2="-3.477" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="-2.913" x2="-5.1011" y2="-2.4479" width="0.2032" layer="21"/>
+<wire x1="-5.2298" y1="-3.327" x2="-5.4081" y2="-3.477" width="0.2032" layer="21"/>
+<wire x1="-5.6711" y1="-2.763" x2="-5.6711" y2="-3.477" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="2.5243" x2="-5.1011" y2="2.0413" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="-1.9555" x2="-5.1011" y2="2.0413" width="0.2032" layer="21"/>
+<wire x1="-5.4081" y1="-2.763" x2="-5.2298" y2="-2.913" width="0.2032" layer="21"/>
+<wire x1="5.0589" y1="-2.4479" x2="-5.1011" y2="-2.4479" width="0.2032" layer="21"/>
+<wire x1="-2.5611" y1="-0.47" x2="-2.7211" y2="-0.63" width="0.2032" layer="51"/>
+<wire x1="-3.2001" y1="-0.119" x2="-2.5611" y2="0.52" width="0.2032" layer="51"/>
+<wire x1="-4.1291" y1="-1.048" x2="-3.2001" y2="-0.119" width="0.2032" layer="51"/>
+<wire x1="0.9509" y1="-1.048" x2="1.8799" y2="-0.119" width="0.2032" layer="51"/>
+<wire x1="5.0589" y1="-1.9555" x2="5.0589" y2="-2.4479" width="0.2032" layer="21"/>
+<wire x1="2.3589" y1="-0.63" x2="1.4459" y2="-1.543" width="0.2032" layer="51"/>
+<wire x1="1.8799" y1="-0.119" x2="2.5189" y2="0.52" width="0.2032" layer="51"/>
+<wire x1="2.5189" y1="-0.47" x2="2.3589" y2="-0.63" width="0.2032" layer="51"/>
+<wire x1="4.0869" y1="1.098" x2="3.1489" y2="0.16" width="0.2032" layer="51"/>
+<wire x1="2.6379" y1="0.639" x2="3.5919" y2="1.593" width="0.2032" layer="51"/>
+<wire x1="3.1489" y1="0.16" x2="2.5189" y2="-0.47" width="0.2032" layer="51"/>
+<wire x1="2.5189" y1="0.52" x2="2.6379" y2="0.639" width="0.2032" layer="51"/>
+<wire x1="-1.9311" y1="0.16" x2="-2.5611" y2="-0.47" width="0.2032" layer="51"/>
+<wire x1="-2.5611" y1="0.52" x2="-2.4421" y2="0.639" width="0.2032" layer="51"/>
+<wire x1="-2.4421" y1="0.639" x2="-1.4881" y2="1.593" width="0.2032" layer="51"/>
+<wire x1="-0.9931" y1="1.098" x2="-1.9311" y2="0.16" width="0.2032" layer="51"/>
+<wire x1="-5.1011" y1="-3.1279" x2="5.0589" y2="-3.1279" width="0.2032" layer="21"/>
+<wire x1="5.0589" y1="-3.1279" x2="5.0589" y2="-2.4479" width="0.2032" layer="21"/>
+<wire x1="5.0589" y1="-1.9555" x2="5.0589" y2="2.0413" width="0.2032" layer="21"/>
+<wire x1="5.0589" y1="2.5243" x2="5.0589" y2="2.0413" width="0.2032" layer="21"/>
+<wire x1="5.0589" y1="2.5243" x2="5.0589" y2="4.05" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="-3.75" x2="-5.1011" y2="-3.327" width="0.2032" layer="21"/>
+<wire x1="5.0589" y1="-3.75" x2="5.0589" y2="-3.1279" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="4.05" x2="5.0589" y2="4.05" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="2.5243" x2="-5.1011" y2="4.05" width="0.2032" layer="21"/>
+<wire x1="5.0589" y1="-3.75" x2="-5.1011" y2="-3.75" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="-3.75" x2="-5.1011" y2="-4.05" width="0.2032" layer="21"/>
+<wire x1="5.0589" y1="-3.75" x2="5.0589" y2="-4.05" width="0.2032" layer="21"/>
+<wire x1="-3.2001" y1="-0.119" x2="-2.7211" y2="-0.63" width="0.2032" layer="51" curve="65.201851"/>
+<wire x1="1.8799" y1="-0.119" x2="2.3589" y2="-0.63" width="0.2032" layer="51" curve="65.201851"/>
+<wire x1="3.1489" y1="0.16" x2="2.6379" y2="0.639" width="0.2032" layer="51" curve="65.201851"/>
+<wire x1="-1.9311" y1="0.16" x2="-2.4421" y2="0.639" width="0.2032" layer="51" curve="65.201851"/>
+<circle x="-2.5611" y="0.025" radius="1.915" width="0.2032" layer="21"/>
+<circle x="2.5189" y="0.025" radius="1.915" width="0.2032" layer="21"/>
+<pad name="1" x="-2.5611" y="0.025" drill="1.3" diameter="2"/>
+<pad name="2" x="2.5189" y="0.025" drill="1.3" diameter="2"/>
+<text x="-4.7511" y="4.445" size="1.27" layer="25">&gt;NAME</text>
+<text x="6.985" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="MKDSN1,5/2-5,08" urn="urn:adsk.eagle:package:9630/1" type="box" library_version="2">
+<description>MKDSN 1,5/ 2-5,08 Printklemme
+Nennstrom: 13,5 A
+Nennspannung: 250 V
+Rastermaß: 5,08 mm
+Polzahl: 2
+Anschlussart: Schraubanschluss
+Montage: Löten
+Anschlussrichtung Leiter/Platine: 0 °
+Artikelnummer: 1729128
+Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
+<packageinstances>
+<packageinstance name="MKDSN1,5/2-5,08"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="KLV" urn="urn:adsk.eagle:symbol:9467/1" library_version="2">
+<circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
+<text x="3.048" y="-0.889" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.683" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="KL" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MKDSN1,5/2-5,08" urn="urn:adsk.eagle:component:9705/2" prefix="X" library_version="2">
+<description>&lt;b&gt;MKDSN 1,5/ 2-5,08&lt;/b&gt; Printklemme&lt;p&gt;
+Nennstrom: 13,5 A&lt;br&gt;
+Nennspannung: 250 V&lt;br&gt;
+Rastermaß: 5,08 mm&lt;br&gt;
+Polzahl: 2&lt;br&gt;
+Anschlussart: Schraubanschluss&lt;br&gt;
+Montage: Löten&lt;br&gt;
+Anschlussrichtung Leiter/Platine: 0 °&lt;br&gt;
+Artikelnummer: 1729128&lt;br&gt;
+Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
+<gates>
+<gate name="-1" symbol="KLV" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="KLV" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="MKDSN1,5/2-5,08">
+<connects>
+<connect gate="-1" pin="KL" pad="1"/>
+<connect gate="-2" pin="KL" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9630/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="14" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8560,6 +8703,13 @@ Source: coiltronics_dr_series.pdf</description>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="X1" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MKDSN1,5/2-5,08" device="" package3d_urn="urn:adsk.eagle:package:9630/1"/>
+<part name="X2" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MKDSN1,5/2-5,08" device="" package3d_urn="urn:adsk.eagle:package:9630/1"/>
+<part name="X3" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MKDSN1,5/2-5,08" device="" package3d_urn="urn:adsk.eagle:package:9630/1"/>
+<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8576,9 +8726,9 @@ Source: coiltronics_dr_series.pdf</description>
 <instance part="P+1" gate="1" x="10.16" y="73.66" smashed="yes">
 <attribute name="VALUE" x="7.62" y="68.58" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC1" gate="G$1" x="22.86" y="93.98" smashed="yes">
-<attribute name="NAME" x="25.4" y="86.36" size="1.778" layer="95"/>
-<attribute name="VALUE" x="25.4" y="83.82" size="1.778" layer="96"/>
+<instance part="IC1" gate="G$1" x="43.18" y="106.68" smashed="yes">
+<attribute name="NAME" x="45.72" y="99.06" size="1.778" layer="95"/>
+<attribute name="VALUE" x="45.72" y="96.52" size="1.778" layer="96"/>
 </instance>
 <instance part="C1" gate="G$1" x="124.46" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="124.079" y="57.404" size="1.778" layer="95" rot="R90"/>
@@ -8639,11 +8789,47 @@ Source: coiltronics_dr_series.pdf</description>
 <instance part="GND1" gate="1" x="177.8" y="58.42" smashed="yes">
 <attribute name="VALUE" x="175.26" y="55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="210.82" y="58.42" smashed="yes">
-<attribute name="VALUE" x="208.28" y="55.88" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="177.8" y="10.16" smashed="yes">
+<attribute name="VALUE" x="175.26" y="7.62" size="1.778" layer="96"/>
 </instance>
 <instance part="GND3" gate="1" x="124.46" y="15.24" smashed="yes">
 <attribute name="VALUE" x="121.92" y="12.7" size="1.778" layer="96"/>
+</instance>
+<instance part="X1" gate="-1" x="193.04" y="99.06" smashed="yes">
+<attribute name="NAME" x="196.088" y="98.171" size="1.778" layer="95"/>
+<attribute name="VALUE" x="190.5" y="95.377" size="1.778" layer="96"/>
+</instance>
+<instance part="X1" gate="-2" x="193.04" y="88.9" smashed="yes">
+<attribute name="NAME" x="196.088" y="88.011" size="1.778" layer="95"/>
+<attribute name="VALUE" x="190.5" y="85.217" size="1.778" layer="96"/>
+</instance>
+<instance part="X2" gate="-1" x="193.04" y="68.58" smashed="yes">
+<attribute name="NAME" x="196.088" y="67.691" size="1.778" layer="95"/>
+<attribute name="VALUE" x="190.5" y="64.897" size="1.778" layer="96"/>
+</instance>
+<instance part="X2" gate="-2" x="193.04" y="78.74" smashed="yes">
+<attribute name="NAME" x="196.088" y="77.851" size="1.778" layer="95"/>
+<attribute name="VALUE" x="190.5" y="75.057" size="1.778" layer="96"/>
+</instance>
+<instance part="X3" gate="-1" x="17.78" y="101.6" smashed="yes" rot="R180">
+<attribute name="NAME" x="14.732" y="102.489" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="20.32" y="105.283" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="X3" gate="-2" x="17.78" y="106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="14.732" y="107.569" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="20.32" y="110.363" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+2" gate="1" x="25.4" y="111.76" smashed="yes">
+<attribute name="VALUE" x="22.86" y="106.68" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND4" gate="1" x="43.18" y="88.9" smashed="yes">
+<attribute name="VALUE" x="40.64" y="86.36" size="1.778" layer="96"/>
+</instance>
+<instance part="GND5" gate="1" x="25.4" y="88.9" smashed="yes">
+<attribute name="VALUE" x="22.86" y="86.36" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V2" gate="G$1" x="60.96" y="111.76" smashed="yes">
+<attribute name="VALUE" x="58.42" y="106.68" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -8669,6 +8855,15 @@ Source: coiltronics_dr_series.pdf</description>
 <wire x1="45.72" y1="68.58" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
 <junction x="45.72" y="66.04"/>
 </segment>
+<segment>
+<pinref part="X3" gate="-2" pin="KL"/>
+<wire x1="20.32" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="P+2" gate="1" pin="+12V"/>
+<wire x1="25.4" y1="106.68" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="IN"/>
+<wire x1="35.56" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
+<junction x="25.4" y="106.68"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -8684,6 +8879,12 @@ Source: coiltronics_dr_series.pdf</description>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="48.26" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
 <junction x="22.86" y="55.88"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUT"/>
+<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<wire x1="50.8" y1="106.68" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="106.68" x2="60.96" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -8771,8 +8972,9 @@ Source: coiltronics_dr_series.pdf</description>
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="L1" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="99.06" x2="160.02" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="99.06" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="99.06" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
 <junction x="162.56" y="99.06"/>
+<pinref part="X1" gate="-1" pin="KL"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -8780,8 +8982,9 @@ Source: coiltronics_dr_series.pdf</description>
 <pinref part="C6" gate="G$1" pin="1"/>
 <pinref part="L2" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="88.9" x2="162.56" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="88.9" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="88.9" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
 <junction x="165.1" y="88.9"/>
+<pinref part="X1" gate="-2" pin="KL"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -8789,7 +8992,8 @@ Source: coiltronics_dr_series.pdf</description>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="L3" gate="G$1" pin="2"/>
 <wire x1="167.64" y1="78.74" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="78.74" x2="167.64" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="X2" gate="-2" pin="KL"/>
+<wire x1="167.64" y1="78.74" x2="190.5" y2="78.74" width="0.1524" layer="91"/>
 <junction x="167.64" y="78.74"/>
 </segment>
 </net>
@@ -8798,7 +9002,8 @@ Source: coiltronics_dr_series.pdf</description>
 <pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="L4" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="68.58" x2="167.64" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="68.58" x2="170.18" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="X2" gate="-1" pin="KL"/>
+<wire x1="170.18" y1="68.58" x2="190.5" y2="68.58" width="0.1524" layer="91"/>
 <junction x="170.18" y="68.58"/>
 </segment>
 </net>
@@ -8822,40 +9027,7 @@ Source: coiltronics_dr_series.pdf</description>
 <junction x="22.86" y="35.56"/>
 </segment>
 </net>
-<net name="N$15" class="0">
-<segment>
-<wire x1="190.5" y1="91.44" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<wire x1="193.04" y1="81.28" x2="185.42" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<wire x1="195.58" y1="71.12" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<wire x1="198.12" y1="60.96" x2="190.5" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="GND" class="0">
-<segment>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="210.82" y1="60.96" x2="208.28" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="60.96" x2="210.82" y2="71.12" width="0.1524" layer="91"/>
-<junction x="210.82" y="60.96"/>
-<wire x1="210.82" y1="71.12" x2="205.74" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="71.12" x2="210.82" y2="81.28" width="0.1524" layer="91"/>
-<junction x="210.82" y="71.12"/>
-<wire x1="210.82" y1="81.28" x2="203.2" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="81.28" x2="210.82" y2="91.44" width="0.1524" layer="91"/>
-<junction x="210.82" y="81.28"/>
-<wire x1="210.82" y1="91.44" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="C8" gate="G$1" pin="2"/>
@@ -8902,6 +9074,17 @@ Source: coiltronics_dr_series.pdf</description>
 <junction x="124.46" y="38.1"/>
 <pinref part="U$1" gate="G$1" pin="SDOUT"/>
 <wire x1="124.46" y1="40.64" x2="116.84" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X3" gate="-1" pin="KL"/>
+<wire x1="20.32" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="25.4" y1="101.6" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="IC1" gate="G$1" pin="ADJ"/>
+<wire x1="43.18" y1="91.44" x2="43.18" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
