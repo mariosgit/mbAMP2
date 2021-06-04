@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -21536,6 +21536,8 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SCHOTTKY-DIODE" device="SMC" package3d_urn="urn:adsk.eagle:package:43425/2"/>
 <part name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="SV4" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE10-2" device="" package3d_urn="urn:adsk.eagle:package:8177/1"/>
+<part name="FAULT" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="220"/>
 </parts>
 <sheets>
 <sheet>
@@ -21545,6 +21547,9 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <text x="137.16" y="38.1" size="1.778" layer="97">oder wi adc/spdif boards</text>
 <text x="157.48" y="-5.588" size="1.778" layer="97">(MCLK)</text>
 <text x="10.16" y="30.48" size="1.778" layer="97">R5 for DevAdr 4.7k 15k 47k 120k</text>
+<text x="78.74" y="124.46" size="1.778" layer="97">The amplified left signal is presented on differential output pair shown as OUT_A+ and OUT_A-,</text>
+<text x="78.74" y="121.92" size="1.778" layer="97">the amplified right signal is presented on differential output pair shown as OUT_B+ and OUT_B-. </text>
+<text x="78.74" y="119.38" size="1.778" layer="97">(acording datasheet 9.4.2.1 page 34)</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="81.28" y="48.26" smashed="yes">
@@ -21806,6 +21811,14 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <attribute name="VALUE" x="173.99" y="22.86" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="173.99" y="-8.382" size="1.778" layer="95" rot="MR180"/>
 </instance>
+<instance part="FAULT" gate="G$1" x="2.54" y="38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="-1.016" y="42.672" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-3.175" y="42.672" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R2" gate="G$1" x="2.54" y="50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="1.0414" y="46.99" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="5.842" y="46.99" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21893,6 +21906,9 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="20.32" y1="48.26" x2="20.32" y2="55.88" width="0.1524" layer="91"/>
 <junction x="20.32" y="55.88"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="7.62" y1="55.88" x2="2.54" y2="55.88" width="0.1524" layer="91"/>
+<junction x="7.62" y="55.88"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
@@ -22060,10 +22076,11 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <pinref part="U$1" gate="G$1" pin="ADR/FAULT"/>
 <wire x1="48.26" y1="35.56" x2="20.32" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="35.56" x2="10.16" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="35.56" x2="2.54" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="35.56" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
 <junction x="20.32" y="35.56"/>
 <label x="33.02" y="35.56" size="1.778" layer="95"/>
+<pinref part="FAULT" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <wire x1="170.18" y1="17.78" x2="154.94" y2="17.78" width="0.1524" layer="91"/>
@@ -22361,6 +22378,13 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <segment>
 <pinref part="SJ2" gate="1" pin="2"/>
 <pinref part="SV4" gate="G$1" pin="5"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="FAULT" gate="G$1" pin="C"/>
+<wire x1="2.54" y1="45.72" x2="2.54" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
