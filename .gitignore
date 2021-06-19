@@ -8,3 +8,5 @@ PCB-Eagle/AMP2_??.job
 PCB-Eagle/AMP2_??.pro
 PCB-Eagle/eagle.epf
 PCB-Eagle/dxfimp.scr
+*.b#?
+*.s#?

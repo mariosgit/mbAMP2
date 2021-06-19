@@ -1460,7 +1460,6 @@
 <text x="38.1" y="29.591" size="1.016" layer="25" font="vector" rot="R180">ADR</text>
 <text x="60.198" y="15.367" size="1.016" layer="25" rot="R90">PDN</text>
 <text x="57.658" y="13.97" size="1.016" layer="25" rot="R90">FAULT</text>
-<text x="41.91" y="11.43" size="1.016" layer="25" font="vector">Raspberry Zero (W)</text>
 <circle x="45.339" y="35.306" radius="0.283978125" width="0.1524" layer="25"/>
 <text x="25.654" y="75.057" size="2.54" layer="25">+</text>
 <text x="72.644" y="75.057" size="2.54" layer="25">+</text>
