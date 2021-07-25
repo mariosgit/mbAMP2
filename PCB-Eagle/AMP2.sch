@@ -24100,7 +24100,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <part name="SV4" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE10-2" device="" package3d_urn="urn:adsk.eagle:package:8177/1"/>
 <part name="FAULT" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1" override_package3d_urn="urn:adsk.eagle:package:30069147/2" override_package_urn="urn:adsk.eagle:footprint:15683/1"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="220"/>
-<part name="L6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-EU" device="L5650M" package3d_urn="urn:adsk.eagle:package:23487/2" value="fuse">
+<part name="L6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-EU" device="L5650M" package3d_urn="urn:adsk.eagle:package:23487/2" value="Fuse">
 <attribute name="MOUSER" value="650-ASMDC300F/24-2"/>
 </part>
 <part name="TVS" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SCHOTTKY-DIODE" device="SMC" package3d_urn="urn:adsk.eagle:package:43425/2" value="24Vbi">
