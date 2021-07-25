@@ -5,7 +5,7 @@ A fully digital audio amplifier.
 This one needs some I2C talking to start up.
 You will also need some kind of I2S data source, e.g. Teensy Audio, some china ADC or SPDIF receiver.
 
-![pcb](images/pcb2.png)
+![pcb](images/pcb3-AMP2.png)
 
 ## Status
 
