@@ -3523,6 +3523,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="53.721" y="5.08" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="TVS" library="diode" library_urn="urn:adsk.eagle:library:210" package="SMC" package3d_urn="urn:adsk.eagle:package:43425/2" value="26Vbi" x="59.69" y="8.89" smashed="yes" rot="R90">
+<attribute name="MOUSER" value="710-824551241" x="59.69" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="61.595" y="5.207" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="1" x="59.69" y="8.89" size="2.54" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="62.357" y="3.683" size="1.27" layer="27" rot="R180"/>
