@@ -5,6 +5,8 @@ A fully digital audio amplifier.
 This one needs some I2C talking to start up.
 You will also need some kind of I2S data source, e.g. Teensy Audio, some china ADC or SPDIF receiver.
 
+![pcb](images/pcb2.png)
+
 ## Status
 
 Test Log:
@@ -34,7 +36,14 @@ void Tas5805m::write(byte reg, byte data)
 
 [My TAS5805m repo](https://github.com/mariosgit/TAS58xx) contains more examples how to use the thing.
 
-## License
+# mbAMP2-IO Board
+
+Input board with Sampe Rate Converter, ADC, SPDIF...
+
+![pcb](images/pcb1.png)
+
+
+# License
 
 #### Attribution-NonCommercial-ShareAlike - CC BY-NC-SA 
 
