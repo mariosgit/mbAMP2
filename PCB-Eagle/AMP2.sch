@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -23985,24 +23985,140 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="mb-DSPAMP" deviceset="TAS5805M" device="" package3d_urn="urn:adsk.eagle:package:16469/2"/>
+<part name="U$1" library="mb-DSPAMP" deviceset="TAS5805M" device="" package3d_urn="urn:adsk.eagle:package:16469/2">
+<attribute name="MOUSER" value="595-TAS5805MPWP"/>
+</part>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="S" package3d_urn="urn:adsk.eagle:package:30370/1" override_package3d_urn="urn:adsk.eagle:package:30069120/2" override_package_urn="urn:adsk.eagle:footprint:30315/1" technology="33TR"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="220n"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="220n"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="220n"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="220n"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="680n"/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="680n"/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="680n"/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="680n"/>
-<part name="L1" library="inductors" library_urn="urn:adsk.eagle:library:243" deviceset="DR125" device="" package3d_urn="urn:adsk.eagle:package:15121/1" override_package3d_urn="urn:adsk.eagle:package:30069136/2" override_package_urn="urn:adsk.eagle:footprint:15035/1" value="10uH"/>
-<part name="L2" library="inductors" library_urn="urn:adsk.eagle:library:243" deviceset="DR125" device="" package3d_urn="urn:adsk.eagle:package:15121/1" override_package3d_urn="urn:adsk.eagle:package:30069135/2" override_package_urn="urn:adsk.eagle:footprint:15035/1" value="10uH"/>
-<part name="L3" library="inductors" library_urn="urn:adsk.eagle:library:243" deviceset="DR125" device="" package3d_urn="urn:adsk.eagle:package:15121/1" override_package3d_urn="urn:adsk.eagle:package:30069139/2" override_package_urn="urn:adsk.eagle:footprint:15035/1" value="10uH"/>
-<part name="L4" library="inductors" library_urn="urn:adsk.eagle:library:243" deviceset="DR125" device="" package3d_urn="urn:adsk.eagle:package:15121/1" override_package3d_urn="urn:adsk.eagle:package:30069132/2" override_package_urn="urn:adsk.eagle:footprint:15035/1" value="10uH"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7k"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="S" package3d_urn="urn:adsk.eagle:package:30370/1" override_package3d_urn="urn:adsk.eagle:package:30069120/2" override_package_urn="urn:adsk.eagle:footprint:30315/1" technology="33TR">
+<attribute name="MOUSER" value="621-AZ1117CH2-33TRG1 "/>
+</part>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="220n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="80-C1206C224K5R7210 "/>
+</part>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="220n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="80-C1206C224K5R7210 "/>
+</part>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="220n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="80-C1206C224K5R7210 "/>
+</part>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="220n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="80-C1206C224K5R7210 "/>
+</part>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="680n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="810-C3216X7R1H684K "/>
+</part>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="680n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="810-C3216X7R1H684K "/>
+</part>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="680n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="810-C3216X7R1H684K "/>
+</part>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="680n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="810-C3216X7R1H684K "/>
+</part>
+<part name="L1" library="inductors" library_urn="urn:adsk.eagle:library:243" deviceset="DR125" device="" package3d_urn="urn:adsk.eagle:package:15121/1" override_package3d_urn="urn:adsk.eagle:package:30069136/2" override_package_urn="urn:adsk.eagle:footprint:15035/1" value="10uH">
+<spice>
+<pinmapping spiceprefix="L">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value=" 652-SRU1048-220Y 652-SRU1063A-220Y 652-SRR1260-220M"/>
+</part>
+<part name="L2" library="inductors" library_urn="urn:adsk.eagle:library:243" deviceset="DR125" device="" package3d_urn="urn:adsk.eagle:package:15121/1" override_package3d_urn="urn:adsk.eagle:package:30069135/2" override_package_urn="urn:adsk.eagle:footprint:15035/1" value="10uH">
+<spice>
+<pinmapping spiceprefix="L">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value=" 652-SRU1048-220Y 652-SRU1063A-220Y 652-SRR1260-220M"/>
+</part>
+<part name="L3" library="inductors" library_urn="urn:adsk.eagle:library:243" deviceset="DR125" device="" package3d_urn="urn:adsk.eagle:package:15121/1" override_package3d_urn="urn:adsk.eagle:package:30069139/2" override_package_urn="urn:adsk.eagle:footprint:15035/1" value="10uH">
+<spice>
+<pinmapping spiceprefix="L">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value=" 652-SRU1048-220Y 652-SRU1063A-220Y 652-SRR1260-220M"/>
+</part>
+<part name="L4" library="inductors" library_urn="urn:adsk.eagle:library:243" deviceset="DR125" device="" package3d_urn="urn:adsk.eagle:package:15121/1" override_package3d_urn="urn:adsk.eagle:package:30069132/2" override_package_urn="urn:adsk.eagle:footprint:15035/1" value="10uH">
+<spice>
+<pinmapping spiceprefix="L">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value=" 652-SRU1048-220Y 652-SRU1063A-220Y 652-SRR1260-220M"/>
+</part>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="667-ERJ-U03J472V "/>
+</part>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="667-ERJ-3EKF1002V "/>
+</part>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="OUT-L" library="con-phoenix-508" deviceset="MKDSN1,5/2-5,08" device="" package3d_urn="urn:adsk.eagle:package:9630/1" override_package3d_urn="urn:adsk.eagle:package:30069166/2" override_package_urn="urn:adsk.eagle:footprint:30069167/1"/>
@@ -24012,15 +24128,63 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u"/>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="81-GRT188R61H105KE3D "/>
+</part>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="81-GRT188R61H105KE3D "/>
+</part>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=".1u"/>
-<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="10u"/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=".1u">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="80-C1206C104K5R7210 "/>
+</part>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="10u">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="187-CL32A106KLULNNE"/>
+</part>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=".1u"/>
-<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=".1u"/>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=".1u">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="80-C1206C104K5R7210 "/>
+</part>
+<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=".1u">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="80-C1206C104K5R7210 "/>
+</part>
 <part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="150CLZ-1010" package3d_urn="urn:adsk.eagle:package:23403/2" value="220u">
 <spice>
 <pinmapping spiceprefix="C">
@@ -24028,6 +24192,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <pinmap gate="G$1" pin="-" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="MOUSER" value="667-EEE-FC1V331AP 667-35SVPK330M "/>
 <attribute name="REICHELT" value="HC-V 220U 35"/>
 </part>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -24041,6 +24206,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <pinmap gate="G$1" pin="-" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="MOUSER" value="667-EEE-FC1V331AP 667-35SVPK330M "/>
 <attribute name="REICHELT" value="HC-V 220U 35"/>
 </part>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="150CLZ-1010" package3d_urn="urn:adsk.eagle:package:23403/2" value="220u">
@@ -24050,6 +24216,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <pinmap gate="G$1" pin="-" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="MOUSER" value="667-EEE-FC1V331AP 667-35SVPK330M "/>
 <attribute name="REICHELT" value="HC-V 220U 35"/>
 </part>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="150CLZ-1010" package3d_urn="urn:adsk.eagle:package:23403/2" value="220u">
@@ -24059,6 +24226,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <pinmap gate="G$1" pin="-" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="MOUSER" value="667-EEE-FC1V331AP 667-35SVPK330M "/>
 <attribute name="REICHELT" value="HC-V 220U 35"/>
 </part>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="150CLZ-1010" package3d_urn="urn:adsk.eagle:package:23403/2" value="220u">
@@ -24068,6 +24236,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <pinmap gate="G$1" pin="-" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="MOUSER" value="667-EEE-FC1V331AP 667-35SVPK330M "/>
 <attribute name="REICHELT" value="HC-V 220U 35"/>
 </part>
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="150CLZ-1010" package3d_urn="urn:adsk.eagle:package:23403/2" value="220u">
@@ -24077,6 +24246,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <pinmap gate="G$1" pin="-" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="MOUSER" value="667-EEE-FC1V331AP 667-35SVPK330M "/>
 <attribute name="REICHELT" value="HC-V 220U 35"/>
 </part>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
@@ -24084,22 +24254,46 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
 <part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC2" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="TV" package3d_urn="urn:adsk.eagle:package:16417/2" override_package3d_urn="urn:adsk.eagle:package:30069129/2" override_package_urn="urn:adsk.eagle:footprint:16154/1" technology="8" value="R-78E-0.5"/>
+<part name="IC2" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="TV" package3d_urn="urn:adsk.eagle:package:16417/2" override_package3d_urn="urn:adsk.eagle:package:30069129/2" override_package_urn="urn:adsk.eagle:footprint:16154/1" technology="8" value="R-78E-0.5">
+<attribute name="MOUSER" value="919-R-78E5.0-0.5 "/>
+</part>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SV3" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE08-1" device="" package3d_urn="urn:adsk.eagle:package:8194/1"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="PWR-----" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2" override_package3d_urn="urn:adsk.eagle:package:30069148/2" override_package_urn="urn:adsk.eagle:footprint:15683/1" override_locally_modified="yes"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k"/>
+<part name="PWR-----" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2" override_package3d_urn="urn:adsk.eagle:package:30069148/2" override_package_urn="urn:adsk.eagle:footprint:15683/1" override_locally_modified="yes">
+<attribute name="MOUSER" value="645-599-0220-007F"/>
+</part>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="667-ERJ-3GEYJ222V "/>
+</part>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SCHOTTKY-DIODE" device="SMC" package3d_urn="urn:adsk.eagle:package:43425/2"/>
+<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SCHOTTKY-DIODE" device="SMC" package3d_urn="urn:adsk.eagle:package:43425/2">
+<attribute name="MOUSER" value="621-B540C-F "/>
+</part>
 <part name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="SV4" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE10-2" device="" package3d_urn="urn:adsk.eagle:package:8177/1"/>
-<part name="FAULT----" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2" override_package3d_urn="urn:adsk.eagle:package:30069147/2" override_package_urn="urn:adsk.eagle:footprint:15683/1" override_locally_modified="yes"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k"/>
+<part name="FAULT----" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2" override_package3d_urn="urn:adsk.eagle:package:30069147/2" override_package_urn="urn:adsk.eagle:footprint:15683/1" override_locally_modified="yes">
+<attribute name="MOUSER" value="645-599-0220-007F"/>
+</part>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="667-ERJ-3GEYJ222V "/>
+</part>
 <part name="L6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-EU" device="L5650M" package3d_urn="urn:adsk.eagle:package:23487/2" value="Fuse">
 <attribute name="MOUSER" value="650-ASMDC300F/24-2"/>
 </part>
@@ -24108,16 +24302,50 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 </part>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC3" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="TL770*" device="D" package3d_urn="urn:adsk.eagle:package:16404/2" technology="05AC"/>
+<part name="IC3" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="TL770*" device="D" package3d_urn="urn:adsk.eagle:package:16404/2" technology="05AC">
+<attribute name="MOUSER" value="595-TL7705AIDR "/>
+</part>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="667-ERJ-3EKF1002V "/>
+</part>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="667-ERJ-3EKF1002V "/>
+</part>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=".1u"/>
+<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=".1u">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="80-C1206C104K5R7210 "/>
+</part>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=".1u"/>
+<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=".1u">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="80-C1206C104K5R7210 "/>
+</part>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -24127,7 +24355,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <text x="144.78" y="40.64" size="1.778" layer="97">wie freedsp ?</text>
 <text x="137.16" y="38.1" size="1.778" layer="97">oder wi adc/spdif boards</text>
 <text x="157.48" y="-5.588" size="1.778" layer="97">(MCLK)</text>
-<text x="10.16" y="30.48" size="1.778" layer="97">R5 for DevAdr 4.7k 15k 47k 120k</text>
+<text x="-2.54" y="27.94" size="1.778" layer="97">R5 for DevAdr 4.7k 15k 47k 120k</text>
 <text x="109.22" y="111.76" size="1.778" layer="97">The amplified left signal is presented on differential output pair shown as OUT_A+ and OUT_A-,</text>
 <text x="109.22" y="109.22" size="1.778" layer="97">the amplified right signal is presented on differential output pair shown as OUT_B+ and OUT_B-. </text>
 <text x="172.72" y="106.68" size="1.778" layer="97">(acording datasheet 9.4.2.1 page 34)</text>
@@ -24139,6 +24367,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <instance part="U$1" gate="G$1" x="81.28" y="48.26" smashed="yes">
 <attribute name="NAME" x="66.04" y="73.66" size="1.27" layer="94"/>
 <attribute name="VALUE" x="91.44" y="73.66" size="1.27" layer="94"/>
+<attribute name="MOUSER" x="81.28" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="7.62" y="60.96" smashed="yes">
 <attribute name="VALUE" x="5.08" y="55.88" size="1.778" layer="96" rot="R90"/>
@@ -24149,62 +24378,77 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <instance part="IC1" gate="G$1" x="109.22" y="142.24" smashed="yes">
 <attribute name="NAME" x="111.76" y="134.62" size="1.778" layer="95"/>
 <attribute name="VALUE" x="101.6" y="147.32" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="109.22" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="124.46" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="124.079" y="57.404" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="129.159" y="57.404" size="1.778" layer="96" rot="R90"/>
+<attribute name="MOUSER" x="124.46" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="129.54" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="129.159" y="54.864" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="134.239" y="54.864" size="1.778" layer="96" rot="R90"/>
+<attribute name="MOUSER" x="129.54" y="53.34" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="124.46" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="124.079" y="52.324" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="129.159" y="52.324" size="1.778" layer="96" rot="R90"/>
+<attribute name="MOUSER" x="124.46" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="129.54" y="48.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="129.159" y="49.784" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="134.239" y="49.784" size="1.778" layer="96" rot="R90"/>
+<attribute name="MOUSER" x="129.54" y="48.26" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="162.56" y="96.52" smashed="yes">
 <attribute name="NAME" x="164.084" y="96.901" size="1.778" layer="95"/>
 <attribute name="VALUE" x="164.084" y="91.821" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="162.56" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C6" gate="G$1" x="165.1" y="86.36" smashed="yes">
 <attribute name="NAME" x="166.624" y="86.741" size="1.778" layer="95"/>
 <attribute name="VALUE" x="166.624" y="81.661" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="165.1" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C7" gate="G$1" x="167.64" y="76.2" smashed="yes">
 <attribute name="NAME" x="169.164" y="76.581" size="1.778" layer="95"/>
 <attribute name="VALUE" x="169.164" y="71.501" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="167.64" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C8" gate="G$1" x="170.18" y="66.04" smashed="yes">
 <attribute name="NAME" x="171.704" y="66.421" size="1.778" layer="95"/>
 <attribute name="VALUE" x="171.704" y="61.341" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="170.18" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L1" gate="G$1" x="152.4" y="99.06" smashed="yes">
 <attribute name="NAME" x="148.59" y="101.346" size="1.778" layer="95"/>
 <attribute name="VALUE" x="148.463" y="96.012" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="152.4" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L2" gate="G$1" x="154.94" y="88.9" smashed="yes">
 <attribute name="NAME" x="151.13" y="91.186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="151.003" y="85.852" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="154.94" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L3" gate="G$1" x="157.48" y="78.74" smashed="yes">
 <attribute name="NAME" x="153.67" y="81.026" size="1.778" layer="95"/>
 <attribute name="VALUE" x="153.543" y="75.692" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="157.48" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L4" gate="G$1" x="160.02" y="68.58" smashed="yes">
 <attribute name="NAME" x="156.21" y="70.866" size="1.778" layer="95"/>
 <attribute name="VALUE" x="156.083" y="65.532" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="160.02" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="20.32" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="18.8214" y="39.37" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="23.622" y="39.37" size="1.778" layer="96" rot="R90"/>
+<attribute name="MOUSER" x="20.32" y="43.18" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R6" gate="G$1" x="27.94" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="26.4414" y="39.37" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="31.242" y="39.37" size="1.778" layer="96" rot="R90"/>
+<attribute name="MOUSER" x="27.94" y="43.18" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="177.8" y="58.42" smashed="yes">
 <attribute name="VALUE" x="175.26" y="55.88" size="1.778" layer="96"/>
@@ -24249,10 +24493,12 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <instance part="C9" gate="G$1" x="10.16" y="45.72" smashed="yes" rot="R180">
 <attribute name="NAME" x="8.636" y="45.339" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="8.636" y="50.419" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="10.16" y="45.72" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C10" gate="G$1" x="15.24" y="45.72" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.716" y="45.339" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="13.716" y="50.419" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="15.24" y="45.72" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND6" gate="1" x="12.7" y="40.64" smashed="yes">
 <attribute name="VALUE" x="10.16" y="38.1" size="1.778" layer="96"/>
@@ -24260,10 +24506,12 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <instance part="C11" gate="G$1" x="119.38" y="129.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="117.856" y="129.159" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="117.856" y="134.239" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="119.38" y="129.54" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C12" gate="G$1" x="127" y="129.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="125.476" y="129.159" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="125.476" y="134.239" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="127" y="129.54" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="119.38" y="124.46" smashed="yes">
 <attribute name="VALUE" x="116.84" y="121.92" size="1.778" layer="96"/>
@@ -24274,15 +24522,18 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <instance part="C13" gate="G$1" x="106.68" y="101.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="105.156" y="101.219" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="105.156" y="106.299" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="106.68" y="101.6" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C16" gate="G$1" x="106.68" y="83.82" smashed="yes" rot="R180">
 <attribute name="NAME" x="105.156" y="83.439" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="105.156" y="88.519" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="106.68" y="83.82" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C21" gate="G$1" x="114.3" y="104.14" smashed="yes">
 <attribute name="NAME" x="115.443" y="104.6226" size="1.778" layer="95"/>
 <attribute name="VALUE" x="115.443" y="99.5426" size="1.778" layer="96"/>
 <attribute name="REICHELT" x="114.3" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="114.3" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="106.68" y="96.52" smashed="yes">
 <attribute name="VALUE" x="104.14" y="93.98" size="1.778" layer="96"/>
@@ -24300,26 +24551,31 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <attribute name="NAME" x="123.063" y="104.6226" size="1.778" layer="95"/>
 <attribute name="VALUE" x="123.063" y="99.5426" size="1.778" layer="96"/>
 <attribute name="REICHELT" x="121.92" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="121.92" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C15" gate="G$1" x="129.54" y="104.14" smashed="yes">
 <attribute name="NAME" x="130.683" y="104.6226" size="1.778" layer="95"/>
 <attribute name="VALUE" x="130.683" y="99.5426" size="1.778" layer="96"/>
 <attribute name="REICHELT" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="129.54" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C17" gate="G$1" x="114.3" y="86.36" smashed="yes">
 <attribute name="NAME" x="115.443" y="86.8426" size="1.778" layer="95"/>
 <attribute name="VALUE" x="115.443" y="81.7626" size="1.778" layer="96"/>
 <attribute name="REICHELT" x="114.3" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="114.3" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C18" gate="G$1" x="121.92" y="86.36" smashed="yes">
 <attribute name="NAME" x="123.063" y="86.8426" size="1.778" layer="95"/>
 <attribute name="VALUE" x="123.063" y="81.7626" size="1.778" layer="96"/>
 <attribute name="REICHELT" x="121.92" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="121.92" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C19" gate="G$1" x="129.54" y="86.36" smashed="yes">
 <attribute name="NAME" x="130.683" y="86.8426" size="1.778" layer="95"/>
 <attribute name="VALUE" x="130.683" y="81.7626" size="1.778" layer="96"/>
 <attribute name="REICHELT" x="129.54" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="129.54" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="H1" gate="G$1" x="2.54" y="2.54" smashed="yes">
 <attribute name="NAME" x="4.572" y="3.1242" size="1.778" layer="95"/>
@@ -24343,6 +24599,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <instance part="IC2" gate="A1" x="73.66" y="142.24" smashed="yes">
 <attribute name="NAME" x="66.04" y="147.955" size="1.778" layer="95"/>
 <attribute name="VALUE" x="66.04" y="145.415" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="73.66" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND12" gate="1" x="73.66" y="124.46" smashed="yes">
 <attribute name="VALUE" x="71.12" y="121.92" size="1.778" layer="96"/>
@@ -24366,10 +24623,12 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <instance part="PWR-----" gate="G$1" x="132.08" y="137.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="128.524" y="141.732" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="126.365" y="141.732" size="1.778" layer="96" rot="R270"/>
+<attribute name="MOUSER" x="132.08" y="137.16" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="132.08" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="130.5814" y="125.73" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="135.382" y="125.73" size="1.778" layer="96" rot="R90"/>
+<attribute name="MOUSER" x="132.08" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND14" gate="1" x="132.08" y="121.92" smashed="yes">
 <attribute name="VALUE" x="129.54" y="119.38" size="1.778" layer="96"/>
@@ -24380,6 +24639,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <instance part="D1" gate="G$1" x="25.4" y="147.32" smashed="yes">
 <attribute name="NAME" x="23.114" y="149.225" size="1.778" layer="95"/>
 <attribute name="VALUE" x="23.114" y="143.891" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="25.4" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SJ2" gate="1" x="165.1" y="12.7" smashed="yes">
 <attribute name="VALUE" x="162.56" y="8.89" size="1.778" layer="96"/>
@@ -24391,10 +24651,12 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <instance part="FAULT----" gate="G$1" x="2.54" y="38.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="-1.016" y="42.672" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-3.175" y="42.672" size="1.778" layer="96" rot="R270"/>
+<attribute name="MOUSER" x="2.54" y="38.1" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="2.54" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="1.0414" y="46.99" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="5.842" y="46.99" size="1.778" layer="96" rot="R90"/>
+<attribute name="MOUSER" x="2.54" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="L6" gate="G$1" x="35.56" y="147.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.37" y="145.8214" size="1.778" layer="95" rot="R180"/>
@@ -24415,6 +24677,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <instance part="IC3" gate="G$1" x="63.5" y="99.06" smashed="yes">
 <attribute name="NAME" x="72.898" y="84.074" size="1.778" layer="95"/>
 <attribute name="VALUE" x="50.8" y="83.82" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="63.5" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+8" gate="1" x="43.18" y="109.22" smashed="yes">
 <attribute name="VALUE" x="40.64" y="104.14" size="1.778" layer="96" rot="R90"/>
@@ -24422,6 +24685,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <instance part="R3" gate="G$1" x="27.94" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="26.4414" y="102.87" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="31.242" y="102.87" size="1.778" layer="96" rot="R90"/>
+<attribute name="MOUSER" x="27.94" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="P+10" gate="1" x="27.94" y="116.84" smashed="yes">
 <attribute name="VALUE" x="25.4" y="111.76" size="1.778" layer="96" rot="R90"/>
@@ -24432,6 +24696,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <instance part="R4" gate="G$1" x="96.52" y="99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="95.0214" y="95.25" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="99.822" y="95.25" size="1.778" layer="96" rot="R90"/>
+<attribute name="MOUSER" x="96.52" y="99.06" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND16" gate="1" x="96.52" y="88.9" smashed="yes">
 <attribute name="VALUE" x="93.98" y="86.36" size="1.778" layer="96"/>
@@ -24439,6 +24704,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <instance part="C20" gate="G$1" x="83.82" y="86.36" smashed="yes" rot="R180">
 <attribute name="NAME" x="82.296" y="85.979" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="82.296" y="91.059" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="83.82" y="86.36" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND17" gate="1" x="83.82" y="81.28" smashed="yes">
 <attribute name="VALUE" x="81.28" y="78.74" size="1.778" layer="96"/>
@@ -24446,6 +24712,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <instance part="C22" gate="G$1" x="33.02" y="88.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="31.496" y="88.519" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="31.496" y="93.599" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="33.02" y="88.9" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND18" gate="1" x="33.02" y="83.82" smashed="yes">
 <attribute name="VALUE" x="30.48" y="81.28" size="1.778" layer="96"/>
