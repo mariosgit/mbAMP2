@@ -24297,7 +24297,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <part name="L6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-EU" device="L5650M" package3d_urn="urn:adsk.eagle:package:23487/2" value="Fuse">
 <attribute name="MOUSER" value="650-ASMDC300F/24-2"/>
 </part>
-<part name="TVS" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SCHOTTKY-DIODE" device="SMC" package3d_urn="urn:adsk.eagle:package:43425/2" value="24Vbi">
+<part name="TVS" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SCHOTTKY-DIODE" device="SMC" package3d_urn="urn:adsk.eagle:package:43425/2" value="26Vbi">
 <attribute name="MOUSER" value="710-824551241"/>
 </part>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -24347,6 +24347,33 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <attribute name="MOUSER" value="80-C1206C104K5R7210 "/>
 </part>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="667-ERJ-3EKF1002V "/>
+</part>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="667-ERJ-3EKF1002V "/>
+</part>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="667-ERJ-3EKF1002V "/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -24355,7 +24382,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <text x="144.78" y="40.64" size="1.778" layer="97">wie freedsp ?</text>
 <text x="137.16" y="38.1" size="1.778" layer="97">oder wi adc/spdif boards</text>
 <text x="157.48" y="-5.588" size="1.778" layer="97">(MCLK)</text>
-<text x="-2.54" y="27.94" size="1.778" layer="97">R5 for DevAdr 4.7k 15k 47k 120k</text>
+<text x="33.02" y="0" size="1.778" layer="97">R5 for DevAdr 4.7k 15k 47k 120k</text>
 <text x="109.22" y="111.76" size="1.778" layer="97">The amplified left signal is presented on differential output pair shown as OUT_A+ and OUT_A-,</text>
 <text x="109.22" y="109.22" size="1.778" layer="97">the amplified right signal is presented on differential output pair shown as OUT_B+ and OUT_B-. </text>
 <text x="172.72" y="106.68" size="1.778" layer="97">(acording datasheet 9.4.2.1 page 34)</text>
@@ -24716,6 +24743,21 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 </instance>
 <instance part="GND18" gate="1" x="33.02" y="83.82" smashed="yes">
 <attribute name="VALUE" x="30.48" y="81.28" size="1.778" layer="96"/>
+</instance>
+<instance part="R7" gate="G$1" x="40.64" y="27.94" smashed="yes" rot="R180">
+<attribute name="NAME" x="44.45" y="26.4414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="44.45" y="31.242" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="40.64" y="27.94" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="R8" gate="G$1" x="40.64" y="25.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="44.45" y="23.9014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="44.45" y="28.702" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="40.64" y="25.4" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="R9" gate="G$1" x="40.64" y="22.86" smashed="yes" rot="R180">
+<attribute name="NAME" x="44.45" y="21.3614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="44.45" y="26.162" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="40.64" y="22.86" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -25221,9 +25263,9 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 </net>
 <net name="LRCLK" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="LRCLK"/>
-<wire x1="48.26" y1="27.94" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
-<label x="35.56" y="27.94" size="1.778" layer="95"/>
+<wire x1="35.56" y1="27.94" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
+<label x="22.86" y="27.94" size="1.778" layer="95"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="170.18" y1="2.54" x2="152.4" y2="2.54" width="0.1524" layer="91"/>
@@ -25233,9 +25275,9 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 </net>
 <net name="SCLK" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SCLK"/>
-<wire x1="48.26" y1="25.4" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
-<label x="35.56" y="25.4" size="1.778" layer="95"/>
+<wire x1="35.56" y1="25.4" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
+<label x="22.86" y="25.4" size="1.778" layer="95"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="170.18" y1="5.08" x2="152.4" y2="5.08" width="0.1524" layer="91"/>
@@ -25245,9 +25287,9 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 </net>
 <net name="SDIN" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SDIN"/>
-<wire x1="48.26" y1="22.86" x2="35.56" y2="22.86" width="0.1524" layer="91"/>
-<label x="35.56" y="22.86" size="1.778" layer="95"/>
+<wire x1="35.56" y1="22.86" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
+<label x="22.86" y="22.86" size="1.778" layer="95"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="170.18" y1="10.16" x2="152.4" y2="10.16" width="0.1524" layer="91"/>
@@ -25358,6 +25400,27 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <pinref part="C22" gate="G$1" pin="2"/>
 <pinref part="IC3" gate="G$1" pin="CT"/>
 <wire x1="33.02" y1="93.98" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="U$1" gate="G$1" pin="LRCLK"/>
+<wire x1="45.72" y1="27.94" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="U$1" gate="G$1" pin="SCLK"/>
+<wire x1="45.72" y1="25.4" x2="48.26" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="U$1" gate="G$1" pin="SDIN"/>
+<wire x1="45.72" y1="22.86" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
