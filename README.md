@@ -2,19 +2,21 @@
 
 A fully digital audio amplifier.
 
-This one needs some I2C talking to start up.
-You will also need some kind of I2S data source, e.g. Teensy Audio, some china ADC or SPDIF receiver.
-
 ![pcb](images/pcb3-AMP2.png)
 
 ## Status
 
-Test Log:
-* Hooked up as Teensy Audio Output.
-* I2C getting responses.
-* It turns on and puts out some kinda sound...
+Updates towards Version v02
+* Removed Pi Header - to much space
+* Added 4 extra pins to the FreeDSP header (PowerDown, Fault)
+* Added power polarity overvoltage overcurrent protection.
+* Added Voltage drop detection for clean/krackless shutdown. (to be tested)
 
 ## Minimum Startup Code
+
+The chip needs some I2C talking to start up.
+
+You will also need some kind of I2S data source, e.g. Teensy Audio, some china ADC or SPDIF receiver or my AMP2-IO the do it all solution, see below.
 
 ```
 bool Tas5805m::begin()
@@ -42,6 +44,15 @@ Input board with Sampe Rate Converter, ADC, SPDIF...
 
 ![pcb](images/pcb1.png)
 
+## Status
+
+Not tested, in development.
+
+* works on breadboard.
+
+## Todo
+
+* move to own repo.
 
 # License
 
