@@ -12,6 +12,10 @@ Updates towards Version v02
 * Added power polarity overvoltage overcurrent protection.
 * Added Voltage drop detection for clean/krackless shutdown. (to be tested)
 
+## Todo
+
+* order
+
 ## Minimum Startup Code
 
 The chip needs some I2C talking to start up.
@@ -53,6 +57,8 @@ Not tested, in development.
 ## Todo
 
 * move to own repo.
+* Add version info on PCB
+* order
 
 # License
 

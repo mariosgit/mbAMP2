@@ -24315,7 +24315,6 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 </spice>
 <attribute name="MOUSER" value="667-ERJ-3EKF1002V "/>
 </part>
-<part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k">
 <spice>
@@ -24714,9 +24713,6 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <attribute name="VALUE" x="31.242" y="102.87" size="1.778" layer="96" rot="R90"/>
 <attribute name="MOUSER" x="27.94" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="P+10" gate="1" x="27.94" y="116.84" smashed="yes">
-<attribute name="VALUE" x="25.4" y="111.76" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="GND15" gate="1" x="43.18" y="86.36" smashed="yes">
 <attribute name="VALUE" x="40.64" y="83.82" size="1.778" layer="96"/>
 </instance>
@@ -24831,11 +24827,6 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="203.2" y1="132.08" x2="203.2" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="134.62" x2="205.74" y2="134.62" width="0.1524" layer="91"/>
 <junction x="205.74" y="134.62"/>
-</segment>
-<segment>
-<pinref part="P+10" gate="1" pin="+12V"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="114.3" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -25340,6 +25331,10 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="20.32" y1="139.7" x2="20.32" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="22.86" y1="147.32" x2="20.32" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="111.76" x2="27.94" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="134.62" x2="20.32" y2="139.7" width="0.1524" layer="91"/>
+<junction x="20.32" y="139.7"/>
 </segment>
 </net>
 <net name="N$14" class="0">
