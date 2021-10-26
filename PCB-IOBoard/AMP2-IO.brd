@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -157,7 +157,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOWM4MzJj" projecturn="a.cGVyc29uYWw6dWUyOWM4MzJjIzIwMTkwNzE5MjA0NDAwNTMx" f3durn="urn:adsk.wipprod:dm.lineage:cyl53ArvRGeVJLaR_FyK1Q" pcbguid="c0ea4be7-e248-4ce0-8ad7-4ec2bd19081b" lastpulledtime="" lastsyncedchangeguid="93e165f2-557c-23a7-f998-70c3f6586c2f" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="" lastpushedtime="" linktopcb3d="false"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOWM4MzJj" projecturn="a.cGVyc29uYWw6dWUyOWM4MzJjIzIwMTkwNzE5MjA0NDAwNTMx" f3durn="urn:adsk.wipprod:dm.lineage:cyl53ArvRGeVJLaR_FyK1Q" pcbguid="c0ea4be7-e248-4ce0-8ad7-4ec2bd19081b" lastpulledtime="" lastsyncedchangeguid="93e165f2-557c-23a7-f998-70c3f6586c2f"/>
 <plain>
 <wire x1="5.08" y1="0" x2="95.25" y2="0" width="0" layer="20"/>
 <wire x1="95.25" y1="0" x2="100.33" y2="5.08" width="0" layer="20" curve="100"/>
@@ -3064,10 +3064,12 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="XL" library="con-conrad" library_urn="urn:adsk.eagle:library:135" package="736880-49" package3d_urn="urn:adsk.eagle:package:6326/1" value="736880-49" x="80.518" y="72.644" smashed="yes" rot="R270">
+<attribute name="MOUSER" value="502-PJRAN1X1U01AUX " x="80.518" y="72.644" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="79.502" y="71.882" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="80.518" y="72.644" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="XR" library="con-conrad" library_urn="urn:adsk.eagle:library:135" package="736880-49" package3d_urn="urn:adsk.eagle:package:6326/1" value="736880-49" x="61.214" y="72.644" smashed="yes" rot="R270">
+<attribute name="MOUSER" value="502-PJRAN1X1U01AUX " x="61.214" y="72.644" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="60.198" y="71.882" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="61.214" y="72.644" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -3307,11 +3309,13 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="75.692" y="1.016" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="" x="43.942" y="5.842" smashed="yes" rot="R180">
+<attribute name="MOUSER" value="621-B140BQ-13-F" x="43.942" y="5.842" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="38.197" y="5.391" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="54.864" y="8.636" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="47.401" y="10.471" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="" x="43.942" y="11.938" smashed="yes" rot="R180">
+<attribute name="MOUSER" value="621-B140BQ-13-F" x="43.942" y="11.938" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="40.289" y="12.389" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="2" x="43.942" y="11.938" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="47.401" y="16.567" size="1.27" layer="27" rot="R180"/>
@@ -3409,21 +3413,25 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="22.86" y="32.766" size="1.27" layer="27" rot="R90" display="off"/>
 </element>
 <element name="FS1" library="led" library_urn="urn:adsk.eagle:library:259" package="1206" package3d_urn="urn:adsk.eagle:package:15796/2" value="" x="34.29" y="49.276" smashed="yes" rot="R90">
+<attribute name="MOUSER" value="645-598-8220-102F" x="34.29" y="49.276" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="31.75" y="46.736" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="20" x="34.29" y="49.276" size="1.27" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="35.56" y="51.816" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="FS2" library="led" library_urn="urn:adsk.eagle:library:259" package="1206" package3d_urn="urn:adsk.eagle:package:15796/2" value="" x="30.48" y="49.276" smashed="yes" rot="R90">
+<attribute name="MOUSER" value="645-598-8220-102F" x="30.48" y="49.276" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="27.94" y="46.736" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="20" x="30.48" y="49.276" size="1.27" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="31.75" y="51.816" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="RX_ERROR" library="led" library_urn="urn:adsk.eagle:library:259" package="1206" package3d_urn="urn:adsk.eagle:package:15796/2" value="" x="26.67" y="49.276" smashed="yes" rot="R90">
+<attribute name="MOUSER" value="645-598-8220-102F" x="26.67" y="49.276" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="24.13" y="53.34" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="20" x="26.67" y="49.276" size="1.27" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="27.94" y="51.816" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="POWER" library="led" library_urn="urn:adsk.eagle:library:259" package="1206" package3d_urn="urn:adsk.eagle:package:15796/2" value="" x="19.05" y="49.276" smashed="yes" rot="R90">
+<attribute name="MOUSER" value="645-598-8220-102F" x="19.05" y="49.276" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="16.764" y="50.292" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="20" x="19.05" y="49.276" size="1.27" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="20.32" y="51.816" size="1.27" layer="27" rot="R180"/>
@@ -3446,6 +3454,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="26.67" y="44.958" size="1.27" layer="27" rot="R270" display="off"/>
 </element>
 <element name="SRCLOCK" library="led" library_urn="urn:adsk.eagle:library:259" package="1206" package3d_urn="urn:adsk.eagle:package:15796/2" value="" x="22.86" y="49.276" smashed="yes" rot="R90">
+<attribute name="MOUSER" value="645-598-8220-102F" x="22.86" y="49.276" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="20.32" y="52.07" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="20" x="22.86" y="49.276" size="1.27" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="24.13" y="51.816" size="1.27" layer="27" rot="R180"/>
@@ -3514,7 +3523,9 @@ design rules under a new name.</description>
 <attribute name="MOUSER" value="595-SN74CBT3253CPW" x="44.958" y="41.656" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="41.238" y="31.04" size="1.27" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="U$6" library="AMP2-ICs" package="TSSOP16-PW" package3d_urn="urn:adsk.eagle:package:4949/1" value="SN74CBT3253" x="44.958" y="33.02" smashed="yes" rot="R270"/>
+<element name="U$6" library="AMP2-ICs" package="TSSOP16-PW" package3d_urn="urn:adsk.eagle:package:4949/1" value="SN74CBT3253" x="44.958" y="33.02" smashed="yes" rot="R270">
+<attribute name="MOUSER" value="595-SN74CBT3253CPW" x="44.958" y="33.02" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="FUSE" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L4532M" package3d_urn="urn:adsk.eagle:package:23483/2" value="Fuse" x="52.07" y="8.89" smashed="yes" rot="R90">
 <attribute name="MOUSER" value="650-MINIASMDC050F-2" x="52.07" y="8.89" size="2.54" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="54.229" y="4.572" size="1.27" layer="25" rot="R180"/>

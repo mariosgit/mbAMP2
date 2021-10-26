@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -25720,8 +25720,12 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="XL" library="con-conrad" library_urn="urn:adsk.eagle:library:135" deviceset="736880-49" device="" package3d_urn="urn:adsk.eagle:package:6326/1"/>
-<part name="XR" library="con-conrad" library_urn="urn:adsk.eagle:library:135" deviceset="736880-49" device="" package3d_urn="urn:adsk.eagle:package:6326/1"/>
+<part name="XL" library="con-conrad" library_urn="urn:adsk.eagle:library:135" deviceset="736880-49" device="" package3d_urn="urn:adsk.eagle:package:6326/1">
+<attribute name="MOUSER" value="502-PJRAN1X1U01AUX "/>
+</part>
+<part name="XR" library="con-conrad" library_urn="urn:adsk.eagle:library:135" deviceset="736880-49" device="" package3d_urn="urn:adsk.eagle:package:6326/1">
+<attribute name="MOUSER" value="502-PJRAN1X1U01AUX "/>
+</part>
 <part name="SPDIF" library="con-conrad" library_urn="urn:adsk.eagle:library:135" deviceset="736880-49" device="" package3d_urn="urn:adsk.eagle:package:6326/1">
 <attribute name="MOUSER" value="502-PJRAN1X1U01AUX "/>
 <attribute name="MOUSER2" value="502-PJRAN1X1U02AUX "/>
@@ -25896,8 +25900,12 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <attribute name="MOUSER" value="919-R-786.5-0.5"/>
 </part>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SCHOTTKY-DIODE" device="SMD" package3d_urn="urn:adsk.eagle:package:43404/2"/>
-<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SCHOTTKY-DIODE" device="SMD" package3d_urn="urn:adsk.eagle:package:43404/2"/>
+<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SCHOTTKY-DIODE" device="SMD" package3d_urn="urn:adsk.eagle:package:43404/2">
+<attribute name="MOUSER" value="621-B140BQ-13-F"/>
+</part>
+<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SCHOTTKY-DIODE" device="SMD" package3d_urn="urn:adsk.eagle:package:43404/2">
+<attribute name="MOUSER" value="621-B140BQ-13-F"/>
+</part>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+7V" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+7V" device=""/>
@@ -25957,15 +25965,25 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="FS1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
-<part name="FS2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
-<part name="RX_ERROR" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
-<part name="POWER" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
+<part name="FS1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2">
+<attribute name="MOUSER" value="645-598-8220-102F"/>
+</part>
+<part name="FS2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2">
+<attribute name="MOUSER" value="645-598-8220-102F"/>
+</part>
+<part name="RX_ERROR" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2">
+<attribute name="MOUSER" value="645-598-8220-102F"/>
+</part>
+<part name="POWER" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2">
+<attribute name="MOUSER" value="645-598-8220-102F"/>
+</part>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k"/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k"/>
-<part name="SRCLOCK" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
+<part name="SRCLOCK" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2">
+<attribute name="MOUSER" value="645-598-8220-102F"/>
+</part>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k"/>
 <part name="+3V14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -26008,7 +26026,9 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <part name="U$5" library="AMP2-ICs" deviceset="SN74CBT3253" device="" package3d_urn="urn:adsk.eagle:package:4949/1">
 <attribute name="MOUSER" value="595-SN74CBT3253CPW"/>
 </part>
-<part name="U$6" library="AMP2-ICs" deviceset="SN74CBT3253" device="" package3d_urn="urn:adsk.eagle:package:4949/1"/>
+<part name="U$6" library="AMP2-ICs" deviceset="SN74CBT3253" device="" package3d_urn="urn:adsk.eagle:package:4949/1">
+<attribute name="MOUSER" value="595-SN74CBT3253CPW"/>
+</part>
 <part name="FUSE" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-EU" device="L4532C" package3d_urn="urn:adsk.eagle:package:23483/2" value="Fuse">
 <spice>
 <pinmapping spiceprefix="L">
@@ -26075,10 +26095,12 @@ kein FS</text>
 <instance part="XL" gate="G$1" x="10.16" y="83.82" smashed="yes">
 <attribute name="NAME" x="5.08" y="87.63" size="1.778" layer="95"/>
 <attribute name="VALUE" x="5.08" y="77.47" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="10.16" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="XR" gate="G$1" x="10.16" y="63.5" smashed="yes">
 <attribute name="NAME" x="5.08" y="67.31" size="1.778" layer="95"/>
 <attribute name="VALUE" x="5.08" y="57.15" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="10.16" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SPDIF" gate="G$1" x="15.24" y="251.46" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.05" y="256.54" size="1.778" layer="95" rot="R270"/>
@@ -26349,10 +26371,12 @@ kein FS</text>
 <instance part="D1" gate="G$1" x="175.26" y="238.76" smashed="yes">
 <attribute name="NAME" x="172.974" y="240.665" size="1.778" layer="95"/>
 <attribute name="VALUE" x="172.974" y="235.331" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="175.26" y="238.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D2" gate="G$1" x="175.26" y="246.38" smashed="yes">
 <attribute name="NAME" x="172.974" y="248.285" size="1.778" layer="95"/>
 <attribute name="VALUE" x="172.974" y="242.951" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="175.26" y="246.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+7" gate="1" x="165.1" y="248.92" smashed="yes">
 <attribute name="VALUE" x="162.56" y="243.84" size="1.778" layer="96" rot="R90"/>
@@ -26509,18 +26533,26 @@ kein FS</text>
 <instance part="FS1" gate="G$1" x="294.64" y="83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="299.212" y="87.376" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="299.212" y="89.535" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="294.64" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="294.64" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="FS2" gate="G$1" x="294.64" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="299.212" y="79.756" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="299.212" y="81.915" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="294.64" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="294.64" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="RX_ERROR" gate="G$1" x="294.64" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="299.212" y="72.136" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="299.212" y="74.295" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="294.64" y="68.58" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="294.64" y="68.58" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="POWER" gate="G$1" x="294.64" y="91.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="299.212" y="94.996" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="299.212" y="97.155" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="294.64" y="91.44" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="294.64" y="91.44" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="284.48" y="91.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="285.75" y="95.0214" size="1.778" layer="95" rot="R180"/>
@@ -26541,6 +26573,7 @@ kein FS</text>
 <instance part="SRCLOCK" gate="G$1" x="294.64" y="60.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="299.212" y="64.516" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="299.212" y="66.675" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="294.64" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R16" gate="G$1" x="284.48" y="60.96" smashed="yes" rot="R180">
 <attribute name="NAME" x="285.75" y="64.5414" size="1.778" layer="95" rot="R180"/>
@@ -26660,6 +26693,7 @@ kein FS</text>
 <instance part="U$6" gate="G$2" x="200.66" y="127" smashed="yes">
 <attribute name="NAME" x="185.42" y="145.415" size="1.778" layer="95"/>
 <attribute name="VALUE" x="185.42" y="109.22" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="200.66" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FUSE" gate="G$1" x="187.96" y="246.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="191.77" y="244.8814" size="1.778" layer="95" rot="R180"/>
