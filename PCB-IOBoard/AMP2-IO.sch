@@ -25767,6 +25767,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC4" library="AMP2-ICs" deviceset="REG1117" device="" package3d_urn="urn:adsk.eagle:package:4940/1">
 <attribute name="MOUSER" value="863-LM1117MPX-33NOPB"/>
+<attribute name="MOUSER2" value="621-AZ1117IH-3.3TRG1"/>
 </part>
 <part name="AGND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="CT6032" package3d_urn="urn:adsk.eagle:package:23305/2" value="10u">
@@ -25914,6 +25915,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <part name="X3" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MKDSN1,5/2-5,08" device="" package3d_urn="urn:adsk.eagle:package:9630/1"/>
 <part name="IC2" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="TV" package3d_urn="urn:adsk.eagle:package:16417/2" technology="8" value="R-78E6.5-0.5">
 <attribute name="MOUSER" value="919-R-786.5-0.5"/>
+<attribute name="MOUSER2" value="490-VX7809-500"/>
 </part>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SCHOTTKY-DIODE" device="SMD" package3d_urn="urn:adsk.eagle:package:43404/2">
@@ -26175,6 +26177,7 @@ kein FS</text>
 <attribute name="NAME" x="246.38" y="244.475" size="1.778" layer="95" ratio="10"/>
 <attribute name="VALUE" x="248.92" y="241.3" size="1.778" layer="96" ratio="10"/>
 <attribute name="MOUSER" x="254" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER2" x="254" y="238.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND4" gate="VR1" x="327.66" y="223.52" smashed="yes">
 <attribute name="VALUE" x="325.12" y="218.44" size="1.778" layer="96" rot="R90"/>
@@ -26382,6 +26385,7 @@ kein FS</text>
 <attribute name="NAME" x="187.96" y="229.235" size="1.778" layer="95"/>
 <attribute name="VALUE" x="187.96" y="226.695" size="1.778" layer="96"/>
 <attribute name="MOUSER" x="195.58" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER2" x="195.58" y="223.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND15" gate="1" x="195.58" y="208.28" smashed="yes">
 <attribute name="VALUE" x="193.04" y="205.74" size="1.778" layer="96"/>
