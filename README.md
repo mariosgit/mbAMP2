@@ -57,12 +57,16 @@ Not tested, in development.
 ## Todo
 
 * move to own repo.
-* Add version info on PCB
-* order
+* more 3D on the rendering.
+
+## Issues 1.0rc1
+
+* fuse solder mask blocker to be wider -> wrong, added rectangles for signals, done.
+* move 6.5V reg right out of the ribbon caple way, done.
 
 # License
 
-#### Attribution-NonCommercial-ShareAlike - CC BY-NC-SA 
+#### Attribution-NonCommercial-ShareAlike - CC BY-NC-SA
 
 ```
 Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
