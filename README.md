@@ -61,17 +61,21 @@ Not tested, in development.
 
 ## Issues 1.0rc1
 
-* Fuse solder mask blocker to be wider -> wrong, added rectangles for signals, done.
-* Move 6.5V reg right out of the ribbon caple way, done.
-* Order 2x 595-SN74CBT3253CPW not 1x
-* Sh** the relais is bistable switched by turning polaritz. I need AGN 20xxx the none latching ! 
-769-AGN200S03Z 
-* BUG: TORX17x has no power, inductor to ground ??? isn't it a little cracy. And it may use 5V or 3.3 and the output goes through a 10n cap nd 220ohm, at least in a FreeDSP.
-* BUG?: The 7404 cinch in seeems to oscilate !?
-* Add pull down on S0 S1, ADC on input 0 ? default ? It's flowting as long MCP23009 is of.
-* BUG!!! Header is flipped !!! haeh Pfusch !!!
-* Reset Line, Pull up ! is internally high, ok. Stand Alone startup circuit !?
+* done Fuse solder mask blocker to be wider -> wrong, added rectangles for signals, done.
+* done Move 6.5V reg right out of the ribbon caple way, done.
+* done: BUG: TORX17x has no power, inductor to ground ??? isn't it a little cracy. And it may use 5V or 3.3.
+* done: BUG TORX  output goes through a 10n cap nd 220ohm, at least in a FreeDSP.
+* done: Add pull down on S0 S1, ADC on input 0 ? default ? It's flowting as long MCP23009 is of.
+* done: BUG!!! Header is flipped !!! haeh Pfusch !!!
+* ...
 * dir9001 cksel must be low !? Or automatic -> connect GND (or error pin)
+
+
+* BUG?: The 7404 cinch in seeems to oscilate !?
+* Reset Line, Pull up ! is internally high, ok. Stand Alone startup circuit !?
+
+* Order 2x 595-SN74CBT3253CPW not 1x
+* Sh** the relais is bistable switched by turning polaritz. I need AGN 20xxx the none latching ! 769-AGN200S03Z 
 
 # License
 
