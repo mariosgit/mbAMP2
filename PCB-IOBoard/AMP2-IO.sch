@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -26098,8 +26098,8 @@ Solder type</description>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="75"/>
 <part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="K2" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="GN?*" device="210S" package3d_urn="urn:adsk.eagle:package:24396/1" technology="03">
-<attribute name="MOUSER" value="769-AGN210S03Z"/>
+<part name="K2" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="GN?*" device="200S" package3d_urn="urn:adsk.eagle:package:24396/1" technology="03" value="GN200S03">
+<attribute name="MOUSER" value="769-AGN200S03Z"/>
 </part>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -26158,7 +26158,6 @@ Solder type</description>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k"/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="OX1" library="AMP2-ICs" deviceset="TORX173" device="" package3d_urn="urn:adsk.eagle:package:28021/1"/>
 <part name="U$5" library="AMP2-ICs" deviceset="SN74CBT3253" device="" package3d_urn="urn:adsk.eagle:package:4949/1">
 <attribute name="MOUSER" value="595-SN74CBT3253CPW"/>
@@ -26801,9 +26800,6 @@ kein FS</text>
 </instance>
 <instance part="GND38" gate="1" x="172.72" y="208.28" smashed="yes">
 <attribute name="VALUE" x="170.18" y="205.74" size="1.778" layer="96"/>
-</instance>
-<instance part="+3V21" gate="G$1" x="83.82" y="185.42" smashed="yes">
-<attribute name="VALUE" x="81.28" y="180.34" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="OX1" gate="G$1" x="119.38" y="251.46" smashed="yes" rot="R270">
 <attribute name="NAME" x="130.81" y="248.92" size="1.778" layer="95" rot="R270"/>
@@ -27712,11 +27708,6 @@ kein FS</text>
 <junction x="284.48" y="142.24"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="CKSEL"/>
-<wire x1="71.12" y1="182.88" x2="83.82" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="+3V21" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
 <pinref part="JMP1" gate="-0R" pin="1"/>
 <pinref part="+3V22" gate="G$1" pin="+3V3"/>
 <wire x1="78.74" y1="238.76" x2="76.2" y2="238.76" width="0.1524" layer="91"/>
@@ -28275,6 +28266,9 @@ kein FS</text>
 <pinref part="U$2" gate="G$1" pin="ERROR"/>
 <wire x1="71.12" y1="190.5" x2="86.36" y2="190.5" width="0.1524" layer="91"/>
 <label x="76.2" y="190.5" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="CKSEL"/>
+<wire x1="71.12" y1="182.88" x2="86.36" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="182.88" x2="86.36" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="GP5"/>

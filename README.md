@@ -67,15 +67,12 @@ Not tested, in development.
 * done: BUG TORX  output goes through a 10n cap nd 220ohm, at least in a FreeDSP.
 * done: Add pull down on S0 S1, ADC on input 0 ? default ? It's flowting as long MCP23009 is of.
 * done: BUG!!! Header is flipped !!! haeh Pfusch !!!
+* done: BUG: dir9001 cksel must be low !? Or automatic -> connect GND (or error pin)
+* done: The relais is bistable switched by turning polarity. I need the none latching ! 769-AGN200S03Z
+* wont: Reset Line, Pull up ! is internally high, ok. Stand Alone startup circuit !? No the Controller can do it.
 * ...
-* dir9001 cksel must be low !? Or automatic -> connect GND (or error pin)
+* BUG?: The 7404 cinch in seeems to oscilate !? Testing !
 
-
-* BUG?: The 7404 cinch in seeems to oscilate !?
-* Reset Line, Pull up ! is internally high, ok. Stand Alone startup circuit !?
-
-* Order 2x 595-SN74CBT3253CPW not 1x
-* Sh** the relais is bistable switched by turning polaritz. I need AGN 20xxx the none latching ! 769-AGN200S03Z 
 
 # License
 
