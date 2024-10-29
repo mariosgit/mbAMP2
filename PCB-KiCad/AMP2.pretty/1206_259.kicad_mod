@@ -1,0 +1,253 @@
+(footprint "1206_259"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CHICAGO MINIATURE LAMP, INC.\n\n7022X Series SMT LEDs 1206 Package Size")
+	(property "Reference" "REF**"
+		(at -1.27 -1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8cdf32ec-fc02-4bec-8e3a-86af46ea0ae2")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "1206_259"
+		(at -1.27 2.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3a0478fe-8d44-45ef-b26e-8f6158a4ef79")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a12066d-cce6-458f-87c0-ed9891f50d67")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47604df2-2240-4ee3-8b1e-dff745a4acc2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc8f9232-b415-4202-9adc-1b2817eaaccc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_arc
+		(start -0.55 -0.5)
+		(mid 0 -0.743303)
+		(end 0.55 -0.5)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "003de5e3-bcd3-461c-abe7-f543c3c71d50")
+	)
+	(fp_arc
+		(start 0.55 0.5)
+		(mid 0 0.743303)
+		(end -0.55 0.5)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c120f1e-d701-48a6-8a17-cb2ea6acf965")
+	)
+	(fp_poly
+		(pts
+			(xy -0.1 0.1) (xy 0.1 0.1) (xy 0.1 -0.1) (xy -0.1 -0.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "0bb3fe8d-1704-4108-81f0-a7e4186bc61d")
+	)
+	(fp_poly
+		(pts
+			(xy 0.45 0.7) (xy 0.6 0.7) (xy 0.6 0.45) (xy 0.45 0.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "d285a956-6de2-4fbe-8faf-19ba24490db7")
+	)
+	(fp_line
+		(start -1.55 -0.75)
+		(end 1.55 -0.75)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23cd46bf-d8db-4b05-b999-f341401bd4df")
+	)
+	(fp_line
+		(start -1.55 0.75)
+		(end -1.55 -0.75)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5e2ecc0-051a-4cf2-97d3-5a8d8d007fe3")
+	)
+	(fp_line
+		(start 1.55 -0.75)
+		(end 1.55 0.75)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aac27ee0-cc92-4262-b982-7d5995338a6e")
+	)
+	(fp_line
+		(start 1.55 0.75)
+		(end -1.55 0.75)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70a4b5d0-5db3-4eb8-9812-bcfe7cb30435")
+	)
+	(fp_arc
+		(start -0.55 0.5)
+		(mid -0.743303 0)
+		(end -0.55 -0.5)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3317e7a-7a7a-4d4c-a119-b0c34609e99e")
+	)
+	(fp_arc
+		(start 0.55 -0.5)
+		(mid 0.743303 0)
+		(end 0.55 0.5)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1920233c-65a6-4250-88ba-883fbfd9c5a4")
+	)
+	(fp_poly
+		(pts
+			(xy -0.9 -0.55) (xy -0.8 -0.55) (xy -0.8 -0.7) (xy -0.9 -0.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "7f376448-9434-4d58-bb94-b8c847a0b909")
+	)
+	(fp_poly
+		(pts
+			(xy -0.9 0.7) (xy -0.8 0.7) (xy -0.8 -0.5) (xy -0.9 -0.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "b9052c69-c1f9-4f34-a7a4-41cd47aca74b")
+	)
+	(fp_poly
+		(pts
+			(xy 0.45 0.7) (xy 0.8 0.7) (xy 0.8 0.45) (xy 0.45 0.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "b43402da-c836-4457-b8ba-a46ef01f0fe5")
+	)
+	(fp_poly
+		(pts
+			(xy 0.8 -0.55) (xy 0.9 -0.55) (xy 0.9 -0.7) (xy 0.8 -0.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "c1dee83b-aabc-45b5-a481-6bba488dd1a1")
+	)
+	(fp_poly
+		(pts
+			(xy 0.8 0.7) (xy 0.9 0.7) (xy 0.9 -0.5) (xy 0.8 -0.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "8473a4c6-2f20-47cd-85a4-f07025590c87")
+	)
+	(pad "A" smd rect
+		(at -1.422 0)
+		(size 1.6 1.803)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "7462c378-8a6f-4645-a577-26090717efb5")
+	)
+	(pad "C" smd rect
+		(at 1.422 0)
+		(size 1.6 1.803)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "511c2024-734f-4a80-947d-a867ff09e5a5")
+	)
+)

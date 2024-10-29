@@ -11,3 +11,11 @@ PCB-Eagle/dxfimp.scr
 *.b#?
 *.s#?
 AMP2-ICs.l#?
+
+# KiCad
+PCB-KiCad/*/*.zip
+PCB-KiCad/*/*.lck
+PCB-KiCad/*.zip
+PCB-KiCad/fp-info-cache
+
+.env

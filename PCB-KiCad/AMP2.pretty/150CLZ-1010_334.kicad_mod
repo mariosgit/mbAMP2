@@ -1,0 +1,229 @@
+(footprint "150CLZ-1010_334"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Aluminum electrolytic capacitors SMD (Chip)\n\nLong life base plate, very low impedance 150 CLZ\n\nhttp://www.bccomponents.com/")
+	(property "Reference" "REF**"
+		(at -2.79 -1.93 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2c1dc2bb-07fd-4c92-9807-6b80e2b87ad3")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "150CLZ-1010_334"
+		(at -3.075 2.885 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "52febf2c-68f7-4af3-b56e-34f1bf6f57a8")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2a34289-ff88-4566-9459-677cf0553cdf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "548f2fba-4e26-4c2b-b292-2988b50f80db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8df09ca7-c5fc-47e3-8437-d0bea2ef86a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.8 -5.15)
+		(end 4.35 -5.15)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f1fbc50-24e8-4368-ba0e-58b2b7fcd20d")
+	)
+	(fp_line
+		(start -5.8 -1.45)
+		(end -5.8 -5.15)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58ffe146-56eb-43b5-ab1e-147accd1d04e")
+	)
+	(fp_line
+		(start -5.8 5.15)
+		(end -5.8 1.45)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b33749bb-31ca-4644-8211-1d2bd84dcd15")
+	)
+	(fp_line
+		(start 4.35 5.15)
+		(end -5.8 5.15)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "82c00883-2309-4576-a9f7-929802522024")
+	)
+	(fp_line
+		(start 5.8 -3.7)
+		(end 4.35 -5.15)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84da520b-52ad-487c-b0b4-a3714551d006")
+	)
+	(fp_line
+		(start 5.8 -3.7)
+		(end 5.8 -1.45)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29a9e3cd-1e00-42f1-8eee-b7d45c99b8f5")
+	)
+	(fp_line
+		(start 5.8 1.45)
+		(end 5.8 3.7)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6abc3c25-503f-4020-b92f-7e55aea6aceb")
+	)
+	(fp_line
+		(start 5.8 3.7)
+		(end 4.35 5.15)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8db0755a-2fb7-4c2e-a409-48d51c8e560f")
+	)
+	(fp_arc
+		(start -4.7 -1.4)
+		(mid 0 -4.90408)
+		(end 4.7 -1.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ebcdcd48-610c-4762-b61a-d64fdfbe1b11")
+	)
+	(fp_arc
+		(start 4.7 1.4)
+		(mid 0 4.90408)
+		(end -4.7 1.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a5ce9a5-4968-4b2b-9889-e4526680a276")
+	)
+	(fp_line
+		(start -5.8 1.45)
+		(end -5.8 -1.45)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c377a7c-7179-43dd-a757-7c7209478135")
+	)
+	(fp_line
+		(start 5.8 -1.45)
+		(end 5.8 1.45)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cda96fd7-8210-4c9c-be84-af4493866fd6")
+	)
+	(fp_arc
+		(start -4.7 1.4)
+		(mid -4.90408 0)
+		(end -4.7 -1.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "61b4a771-7bd9-4ca3-b00f-1ca91278d00d")
+	)
+	(fp_arc
+		(start 4.7 -1.4)
+		(mid 4.90408 0)
+		(end 4.7 1.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d716389e-b31e-4501-8b3d-a738bdc38e75")
+	)
+	(pad "+" smd rect
+		(at 4.15 0)
+		(size 4.3 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "0773b527-c9c1-4952-817f-8c494b003db4")
+	)
+	(pad "-" smd rect
+		(at -4.15 0)
+		(size 4.3 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "13171e08-8942-4bfc-8710-ac3857ca4dfb")
+	)
+)
